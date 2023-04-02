@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <!-- Ejemplo javascript  sin  llamar al script  desde otro archivo-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ejemplo 1 </title>
+   
+</head>
+
+<body>
+    
+    
+    <h2> Ingrese su nombre</h2>
+    <input type="text" id="nombre">
+    <button onclick="mostrarSaludo()">ok</button>
+
+    <script>
+        function mostrarSaludo() {
+            let nombre = document.getElementById("nombre").value;
+            alert("Hola " + nombre);
+        }
+    </script>
+    
+
+</body>
+
+</html>

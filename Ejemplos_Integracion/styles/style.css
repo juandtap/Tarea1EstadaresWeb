@@ -42,3 +42,16 @@ body {
     border: 5px solid blue;
     padding: 0 20px 20px 20px;
 }
+
+.boton-redondeado {
+    background-color: white; /* Establece el color de fondo */
+    border: 1px solid; /* Quita el borde del botón */
+    border-color: black;
+    color: black; /* Establece el color del texto */
+    padding: 10px 20px; /* Establece el relleno del botón */
+    text-align: center; /* Centra el texto en el botón */
+    font-weight: bold;
+    font-size: 15px; /* Establece el tamaño de fuente del texto */
+    border-radius: 25px; /* Establece el radio de borde del botón */
+  }
+  
